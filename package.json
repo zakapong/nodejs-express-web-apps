@@ -1,0 +1,40 @@
+{
+  "name": "nodejs-express-web-apps",
+  "version": "1.0.0",
+  "description": "web app development using nodejs and express",
+  "main": "web app",
+  "scripts": {
+    "test": "apps",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zakapong/nodejs-express-web-apps.git"
+  },
+  "keywords": [
+    "web",
+    "app"
+  ],
+  "author": "'Zack' <'zaka.pong@yahoo.com'>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zakapong/nodejs-express-web-apps/issues"
+  },
+  "homepage": "https://github.com/zakapong/nodejs-express-web-apps#readme",
+  "devDependencies": {
+    "express": "4.13.4",
+    "gulp": "3.9.1",
+    "gulp-inject": "4.0.0",
+    "gulp-jscs": "3.0.2",
+    "gulp-jshint": "2.0.0",
+    "gulp-nodemon": "2.0.6",
+    "jshint-stylish": "2.1.0"
+  },
+  "dependencies": {
+    "body-parser": "1.15.0",
+    "ejs": "2.4.1",
+    "express-handlebars": "3.0.0",
+    "jade": "1.11.0",
+    "multer": "1.1.0"
+  }
+}
