@@ -35,6 +35,7 @@
     "ejs": "2.4.1",
     "express-handlebars": "3.0.0",
     "jade": "1.11.0",
+    "mssql": "3.2.1",
     "multer": "1.1.0"
   }
 }

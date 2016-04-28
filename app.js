@@ -4,6 +4,31 @@
 var express= require('express');
 
 var app= express();
+var sql = require('mssql');
+
+var config = {
+    user: '...',
+    password: '...',
+    server: 'localhost', // You can use 'localhost\\instance' to connect to named instance
+    database: '...',
+
+    options: {
+        encrypt: true // Use this if you're on Windows Azure
+    }
+};
+
+
+sql.connect(config).then(function(err) {
+    // Query
+
+    console.log(err);
+        // ... error checks
+    });
+
+
+
+
+
 
 var port= process.env.PORT || 8989;
 var nav= [{
